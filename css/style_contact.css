@@ -76,3 +76,7 @@ color: teal;
 .message{
     height: 10em;
 }
+
+.text-right{
+    padding: 1em;
+}
