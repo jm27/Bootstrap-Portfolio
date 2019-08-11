@@ -12,12 +12,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style_index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
+
 <body>
-    <div class="container">
-        <div class="row">
+    <div class="container bg">
+        <div class="row header">
             <div class="col-4 col">
                 <div id="name">
                     <h2>Jesus Esquer</h2>
@@ -44,41 +47,51 @@
                 <div class="jumbotron jumbotron-fluid">
                     <div class="container">
                         <div class="row ">
-                            <h3 class="col-12 display-4">About me</h3>
+                            <h3 class="col-12 display-4 about">About me</h3>
                         </div>
                         <div class="row">
-                            <div class="col-4">
-                                <img src="https://avatarfiles.alphacoders.com/894/89417.jpg" height="250px"
-                                    width="250px">
+                            <div class="col-4 row1">
+                                <img src="http://ithunters.ca/images/profile.png" height="100%"
+                                    width="100%">
                             </div>
                             <div class="col-8">
                                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                                     neque ligula, blandit sed dui sit amet, auctor dapibus magna. Vestibulum in
-                                    malesuada felis. Ut scelerisque dolor sed consequat fringilla. Aliquam eu nunc ac
+                                    malesuada felis. Ut scelerisque dolor sed consequat fringilla. Aliquam eu nunc
+                                    ac
                                     odio sodales convallis. Etiam iaculis fermentum risus, iaculis ultrices elit
-                                    tincidunt eu. Aenean in magna venenatis, eleifend quam vel, mollis lacus. Vestibulum
+                                    tincidunt eu. Aenean in magna venenatis, eleifend quam vel, mollis lacus.
+                                    Vestibulum
                                     sed felis venenatis, consectetur enim vel, scelerisque mi. Donec mi ante, varius
                                     vitae arcu at, finibus condimentum libero. Nulla pharetra venenatis tempus. Sed
-                                    porttitor consequat mi, eget sagittis nunc mattis ac. Vestibulum a tortor lectus.
+                                    porttitor consequat mi, eget sagittis nunc mattis ac. Vestibulum a tortor
+                                    lectus.
                                 </p>
                             </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <p class="lead"> Nam imperdiet purus vel nisi laoreet, sit amet tempor massa semper.
-                                        Nulla
-                                        posuere
-                                        ante nunc. Fusce consequat vehicula dolor, nec suscipit enim. Duis pulvinar urna
-                                        ut
-                                        tellus hendrerit, ac rhoncus sapien porttitor. Suspendisse sit amet enim
-                                        tincidunt,
-                                        venenatis sem vitae, tempor est. Morbi varius, diam sed finibus molestie, dui
-                                        tellus
-                                        tempor turpis, eu mattis enim ligula id dui. Vivamus vehicula pharetra metus, ut
-                                        dapibus est consequat sed. Pellentesque tincidunt aliquet facilisis.
-                                        Pellentesque
-                                        aliquet orci at arcu gravida, eu tristique orci commodo. Aenean varius convallis
-                                        felis, in cursus tellus finibus vitae.
-                                    </p>
+                            <div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p class="lead"> Nam imperdiet purus vel nisi laoreet, sit amet tempor massa
+                                            semper.
+                                            Nulla
+                                            posuere
+                                            ante nunc. Fusce consequat vehicula dolor, nec suscipit enim. Duis pulvinar
+                                            urna
+                                            ut
+                                            tellus hendrerit, ac rhoncus sapien porttitor. Suspendisse sit amet enim
+                                            tincidunt,
+                                            venenatis sem vitae, tempor est. Morbi varius, diam sed finibus molestie,
+                                            dui
+                                            tellus
+                                            tempor turpis, eu mattis enim ligula id dui. Vivamus vehicula pharetra
+                                            metus, ut
+                                            dapibus est consequat sed. Pellentesque tincidunt aliquet facilisis.
+                                            Pellentesque
+                                            aliquet orci at arcu gravida, eu tristique orci commodo. Aenean varius
+                                            convallis
+                                            felis, in cursus tellus finibus vitae.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +99,22 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="card-footer">
+                    copyright ©
+                </div>
+            </div>
+        </div>
     </div>
+    <style>
+        @media screen and (max-width: 480px) {}
 
+        @media screen and (max-width: 768px) {
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+    </style>
 
 </body>
