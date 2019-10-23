@@ -1,8 +1,79 @@
 <!DOCTYPE html>
 
 <head>
+    <!--CSS Reset to clear margins-->
+    <link rel="stylesheet" href="css/css-reset.css">
+
+    <!-- SCSS Blend Background-->
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <!-- CSS BootStrap links-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+            <!-- Our CSS file-->
+    <link rel="stylesheet" href="css/style_index.css">
+    
+    <title>Jesus Esquer</title>
+</head>
+
+
+<body class="blend">
+
+    <div class="row header">
+        <div class="col-4 col">
+            <div>
+                <a href="index.html">
+                    <img id="logo" src="imgs/Name-logo.png">
+                </a>
+            </div>
+        </div>
+        <div class="col-8 col">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                |
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container row">
+        <div class="col-12 jumbotron" style="background: none;" >
+            <div class="row">
+                <h3 class="col-12" id="greeting">Hi,</h3>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 col-sm-4 row1">
+                    <img src="imgs/Profile-picture.png" height="100%" width="100%">
+                </div>
+                <div class="col-12 col-md-8 col-sm-8">
+                    <p class="lead"> A little bit about me, I am a Full Stack Web Developer with a
+                        background BS in Business, Recently
+                        earned a certificate in Full Stack Development from the University of Arizona, with
+                        newly developed skills in <span style="background-color: #FFFF00"> HTML, CSS, JavaScript, NODE,
+                            SQL and responsive web
+                            design.</span> amazing user-friendly websites and applications is truly a passion
+                        of mine. Looking to develop my strong team-work skills in an environment where
+                        technical innovation is vital for business success.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card-footer">
+                <div class="container">
+                    copyright ©
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Boot Strap Javascript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -12,66 +83,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style_index.css">
 
-</head>
-
-
-<body>
-    <div class="container">
-        <div class="row header">
-            <div class="col-4 col">
-                <div >
-                    <a href="index.html">
-                        <img id="logo" src="imgs/Name-logo.png">
-                    </a>
-                </div>
-            </div>
-            <div class="col-8 col">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    |
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="jumbotron jumbotron-fluid">
-                    <div class="container">
-                        <div class="row ">
-                            <h3 class="col-12 display-4 about">Hi,</h3>
-                        </div>
-                        <div class="row">
-                            <div class="col-4 row1">
-                                <img src="http://ithunters.ca/images/profile.png" height="100%" width="100%">
-                            </div>
-                            <div class="col-8">
-                                <p class="lead"> A little bit about me, I am a Full Stack Web Developer with a background BS in Business, Recently
-                                    earned a certificate in Full Stack Development from the University of Arizona, with
-                                    newly developed skills in HTML, CSS, JavaScript, NODE, SQL and responsive web
-                                    design. Building amazing user-friendly websites and applications is truly a passion
-                                    of mine. Looking to develop my strong team-work skills in an environment where
-                                    technical innovation is vital for business success.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="card-footer">
-                    <div class="container">
-                        copyright ©
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </body>
